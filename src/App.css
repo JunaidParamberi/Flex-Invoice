@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --primery-color : #090852;
+}
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+
+}
+
+body {
+    background-color: #090852;
+}
+
+
+.or-text{
+    font-size: 15px ;
+    color: #090852;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.or-text::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #0908526f;
+    position: absolute;
+    display:flex;
+    margin-top: -10px;
+    margin-left: 100px;
+
+    
+}
+.or-text::before {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #0908526f;
+    position: absolute;
+    display:flex;
+    margin-top: 12px;
+    margin-left: 240px;
+
+    
+}
+
+/* .navbar-container .icons::after{
+    content: "";
+    height: 30px;
+    width: 0.2px;
+    opacity: 0.6;
+    background-color: white;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 6px;
+} */
+
+.navbar-container .icons::before{
+    content: "";
+    height: 30px;
+    width: 0.2px;
+    opacity: 0.6;
+    background-color: white;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 6px;
+}
+
+/* .search input:focus{
+    border-bottom: #090852 solid 1px;
+} */
+.search input::placeholder{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.list-pages-container::after{
+    content: "";
+    width: 92.6%;
+    height: 1px;
+    background-color: #0908524a;
+    position: absolute;
+    margin-top: 50px;
+}
+
+
+/* .head::after{
+    content: "";
+    width: 92.6%;
+    height: 1px;
+    background-color: #0908524a;
+    position: absolute;
+    margin-top: 30px;
+}
+
+
+.table-body-container{
+    
+} */
