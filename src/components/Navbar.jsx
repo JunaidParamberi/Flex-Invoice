@@ -23,7 +23,11 @@ function Navbar() {
               {currentUser.displayName || currentUser.email}
             </p>
           )}
-          <img className="w-[30px] cursor-pointer" src={avatar} alt="" />
+          <img
+            className="w-[35px] cursor-pointer h-[34px] object-cover rounded-full border-[1px] border-white "
+            src={currentUser.photoURL || avatar}
+            alt={currentUser.displayName}
+          />
           <img className=" cursor-pointer" src={arrowDown} alt="" />
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Overview from "../components/Overview";
 import Filter from "../components/Filter";
-import InvoiceListHead from "../components/InvoiceListHead";
+import InvoiceListHead from "../InvoiceEditor/InvoiceListHead";
 import Table from "../components/Table";
 import DataTable from "../components/MUITable";
 import Fab from "@mui/material/Fab";

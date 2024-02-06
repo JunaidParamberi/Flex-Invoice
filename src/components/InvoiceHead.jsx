@@ -51,6 +51,7 @@ function InvoiceHead() {
             boxShadow: "none",
             "&:hover": {
               backgroundColor: "#090852", // Change this to the desired hover color
+              boxShadow: "none",
             },
           }}
           variant="contained"
